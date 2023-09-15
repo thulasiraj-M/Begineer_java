@@ -1,0 +1,100 @@
+package raj1;
+import java.awt.*;
+
+import javax.swing.*;
+public class awt extends Frame {
+	awt(){
+	Frame F=new Frame();
+	JLabel a=new JLabel("Enter your Name");
+	a.setBounds(50,70,100,20);
+	add(a);
+	JTextField T=new JTextField();
+	T.setBounds(200,70,150,20);
+	add(T);
+	JLabel a1=new JLabel("Enter your age");
+	a1.setBounds(50,110,100,20);
+	add(a1);
+	JTextField T1=new JTextField();
+	T1.setBounds(200,110,150,20);
+	add(T1);
+	JLabel L2=new JLabel("Enter Your PnoneNmber");
+	L2.setBounds(50,150,150,20);
+	add(L2);
+	JTextField T2=new JTextField();
+	T2.setBounds(200,150,150,20);
+	add(T2);
+	JLabel L3=new JLabel("Enter your address");
+	L3.setBounds(50,190,150,20);
+	add(L3);
+	JTextArea T3=new JTextArea();
+	T3.setBounds(200,190,150,80);
+	add(T3);
+	JLabel L4=new JLabel("Select Your Department");
+	L4.setBounds(50,290,150,20);
+	add(L4);
+	Choice C=new Choice();
+	C.setBounds(200,290,150,20);
+	C.add("AERO");
+	C.add("CIVIL");
+    C.add("CSE");
+	C.add("IT");
+	C.add("ECE");
+	C.add("MECH");
+	add(C);
+	JLabel L5=new JLabel("Select your Prgm.Skill");
+	L5.setBounds(50,330,150,20);
+	add(L5);
+	JCheckBox C1=new JCheckBox("C++");
+	C1.setBounds(200,330,150,20);
+	add(C1);
+	JCheckBox C2=new JCheckBox("JAVA");
+	C2.setBounds(200,360,150,20);
+	add(C2);
+	JCheckBox C3=new JCheckBox("PYTHON");
+	C3.setBounds(200,390,150,20);
+	add(C3);
+	JLabel L6=new JLabel("Select Your Role");
+	L6.setBounds(50,440,150,20);
+	add(L6);
+	JRadioButton J=new JRadioButton("A)Software Developer");
+	J.setBounds(200,440,150,20);
+	add(J);
+	JRadioButton J1=new JRadioButton("B)Software Designer");
+	J1.setBounds(200,470,150,20);
+	add(J1);
+	JRadioButton J2=new JRadioButton("C)Software Testing");
+	J2.setBounds(200,500,150,20);
+	add(J2);
+	JRadioButton J3=new JRadioButton("D)Software Architect");
+	J3.setBounds(200,530,150,20);
+	add(J3);
+	ButtonGroup bg=new ButtonGroup();
+	bg.add(J);
+	bg.add(J1);
+	bg.add(J2);
+	bg.add(J3);
+	
+	JLabel L7=new JLabel("Submit Your Application");
+	L7.setBounds(50,570,150,20);
+	add(L7);
+	
+	JToggleButton A1=new JToggleButton("YES");
+	A1.setBounds(200,570,100,20);
+	add(A1);
+	
+	
+	setSize(700,700);
+	setLayout(null);
+	setVisible(true);
+	setBackground(Color.cyan);
+	
+
+	}
+
+	
+	public static void main(String[]args) {
+		awt A=new awt();
+		
+	}
+
+}

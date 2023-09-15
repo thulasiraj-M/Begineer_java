@@ -1,0 +1,27 @@
+Certainly! Here's a simple outline explaining the working process of the Expense Tracker code:
+
+1. Initialize the Expense Tracker:
+   - Create an empty list to store expenses.
+   - Set up a loop to continuously prompt the user for options.
+
+2. User Interaction:
+   - Display a menu of options for the user to choose from.
+   - Prompt the user to enter their choice.
+
+3. Add Expense:
+   - If the user selects the option to add an expense, prompt them to enter the expense amount.
+   - Store the entered expense amount in the expenses list.
+   - Display a success message confirming the addition of the expense.
+
+4. Display Total Expenses:
+   - If the user selects the option to display total expenses:
+     - Iterate over the expenses list and calculate the sum of all expenses.
+     - Display the total expenses to the user.
+
+5. Exit the Expense Tracker:
+   - If the user selects the exit option, terminate the program.
+
+6. Repeat the Process:
+   - After executing an option, the program loops back to the menu, allowing the user to choose another option.
+
+This Expense Tracker code provides a basic framework for tracking expenses. It uses a list to store expenses, and the user can add expenses and view the total expenses whenever needed. The program continues to run until the user chooses the exit option.
